@@ -208,6 +208,12 @@ footer{
   border-left: 0px;
   text-align: center;
 }
+.article-h2{
+  text-shadow: 0 0 0 #FCFCFC, -1px -1px 0 #FCFCFC, 1px -1px 0 #FCFCFC, -1px 1px 0 #FCFCFC, 1px 1px 0 #FCFCFC; 
+}
+button{ 
+  cursor: pointer; 
+}
 /* 
   ##Device = Most of the Smartphones Mobiles (Portrait)
   ##Screen = B/w 320px to 479px
@@ -215,7 +221,12 @@ footer{
 */
 
 @media (max-width: 480px) {
-
+  .hidden-on-lg{
+    display: block;
+  }
+  .hidden-on-sm{
+    display: none;
+  }
 }
 
 /* 
@@ -243,11 +254,11 @@ footer{
 */
 @font-face {
   font-family: 'Heartbeat';
-  src:  url('fonts/heartbeat.eot') format('eot'),
-        url('fonts/heartbeat.otf') format('otf'),
-        url('fonts/heartbeat.woff') format('woff'),
-        url('fonts/heartbeat.svg') format('svg'),
-        url('fonts/heartbeat.ttf') format('ttf');
+  src:  url('../fonts/heartbeat.eot') format('eot'),
+        url('../fonts/heartbeat.otf') format('otf'),
+        url('../fonts/heartbeat.woff') format('woff'),
+        url('../fonts/heartbeat.svg') format('svg'),
+        url('../fonts/heartbeat.ttf') format('ttf');
 }
 
 /*
