@@ -86,10 +86,21 @@ table thead, table tbody{
 
 table th.slim{
   width: 100px;
+
 }
 
 table tfoot{
   font-weight: bold;
+}
+
+.cartP{
+  display: flex;
+  justify-content: end;
+  
+}
+
+.totalPrice{
+  text-align: center;
 }
 
 article{
