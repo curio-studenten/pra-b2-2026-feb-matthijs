@@ -30,6 +30,10 @@ header{
   background-color: #CCCCCC;
 }
 
+.indexBoxes{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
 .header-content{
   padding: 1em;
 
