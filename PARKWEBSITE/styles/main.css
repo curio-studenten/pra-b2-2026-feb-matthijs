@@ -201,6 +201,16 @@ footer{
 .article-h2{
   text-shadow: 0 0 0 #FCFCFC, -1px -1px 0 #FCFCFC, 1px -1px 0 #FCFCFC, -1px 1px 0 #FCFCFC, 1px 1px 0 #FCFCFC; 
 }
+.product-page{
+  display: flex;
+}
+.product-page-text p{
+  margin: 0;
+  padding: 0;
+}
+.bold{
+  font-weight: bold;
+}
 button{ 
   cursor: pointer; 
 }
@@ -236,6 +246,9 @@ button{
   .sidy-by-side{
     flex-direction: column;
     align-items: center;
+  }
+  .product-page{
+    flex-direction: column;
   }
 }
 
