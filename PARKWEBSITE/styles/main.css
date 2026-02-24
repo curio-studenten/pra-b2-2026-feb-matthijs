@@ -152,9 +152,9 @@ article h2.open-forever{
   background: #CCCCCC;
   text-align: center;
 }
-.product:last-of-type{
+/* .product:last-of-type{
   margin-right: 0;
-}
+} */
 
 .product span{
   display: block;
